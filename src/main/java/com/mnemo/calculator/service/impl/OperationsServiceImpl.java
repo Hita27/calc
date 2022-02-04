@@ -18,26 +18,30 @@ public class OperationsServiceImpl implements OperationsService {
 	
 	@Override
 	public Result add(Operands operands) {
-		//TODO
-		return null;
+		Result result = new Result(BasicOperations.add(operands.getFirstOperand(), operands.getSecondOperand()));
+		tracer.trace(result);
+		return result;
 	}
 
 	@Override
 	public Result subtract(Operands operands) {
-		//TODO
-		return null;
+		Result result = new Result(BasicOperations.subtract(operands.getFirstOperand(), operands.getSecondOperand()));
+		tracer.trace(result);
+		return result;
 	}
-	
+
 	@Override
 	public Result multiply(Operands operands) {
-		//TODO
-		return null;
+		Result result = new Result(BasicOperations.multiply(operands.getFirstOperand(), operands.getSecondOperand()));
+		tracer.trace(result);
+		return result;
 	}
 
 	@Override
 	public Result divide(Operands operands) {
-		//TODO
-		return null;
+		Result result = new Result(BasicOperations.divide(operands.getFirstOperand(), operands.getSecondOperand()));
+		tracer.trace(result);
+		return result;
 	}
 
 }
