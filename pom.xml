@@ -33,6 +33,22 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- TRACER dependency -->
+		<dependency>
+			<groupId>io.corp.calculator</groupId>
+		  	<artifactId>tracer</artifactId>
+		  	<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/src/main/resources/lib/tracer-1.0.0.jar</systemPath>
+		</dependency>
+		<!-- FIN TRACER dependencies -->
+		
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
