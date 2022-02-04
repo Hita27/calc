@@ -25,5 +25,15 @@ public class CalculatorController {
 		return null;
 	}
 	
+	@PostMapping(value = "/multiply", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public Result multiply(@RequestBody Operands operands) {
+//		return operationsService.multiply(operands);
+		return null;
+	}
 	
+	@PostMapping(value = "/divide", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public Result divide(@RequestBody Operands operands) {
+//		return operationsService.divide(operands);
+		return null;
+	}
 }

@@ -8,5 +8,9 @@ public interface OperationsService {
 	Result add(Operands operands);
 	
 	Result subtract(Operands operands);
+	
+	Result multiply(Operands operands);
+	
+	Result divide(Operands operands);
 
 }

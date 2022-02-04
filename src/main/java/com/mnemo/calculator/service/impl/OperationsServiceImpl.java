@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import com.mnemo.calculator.model.Operands;
 import com.mnemo.calculator.model.Result;
 import com.mnemo.calculator.service.OperationsService;
+import com.mnemo.calculator.utils.BasicOperations;
 
 import io.corp.calculator.TracerImpl;
 
@@ -23,6 +24,18 @@ public class OperationsServiceImpl implements OperationsService {
 
 	@Override
 	public Result subtract(Operands operands) {
+		//TODO
+		return null;
+	}
+	
+	@Override
+	public Result multiply(Operands operands) {
+		//TODO
+		return null;
+	}
+
+	@Override
+	public Result divide(Operands operands) {
 		//TODO
 		return null;
 	}

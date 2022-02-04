@@ -10,4 +10,11 @@ public abstract class BasicOperations {
 		return a - b;
 	}
 	
+	public static double multiply(Double a, Double b) {
+		return a * b;
+	}
+	
+	public static double divide(Double a, Double b) {
+		return a / b;
+	}
 }
